@@ -1,0 +1,25 @@
+.Cell {
+	display: flex;
+	flex: 1;
+
+	border: 1px solid black;
+
+	font-size: 160px;
+	
+	align-items: center;
+	justify-content: center;
+
+	user-select: none;
+	background-color: white;
+
+	cursor: default;
+}
+.Cell:not(:last-child) {
+	margin-right: 4px;
+}
+
+.Cell-isHovered {
+	background-color: lightgoldenrodyellow;
+
+	cursor: pointer;
+}

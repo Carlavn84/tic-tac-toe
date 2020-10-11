@@ -1,0 +1,33 @@
+.Controls {
+	display: flex;
+	flex-direction: row;
+
+	flex: none;
+
+	padding: 4px;
+
+	align-items: center;
+}
+
+.Controls > *+* {
+	margin-left: 16px;
+}
+
+.PlayerInputs > *+* {
+	margin-left: 8px;
+}
+
+.PlayerInputLabel {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.PlayerInputLabel > *+* {
+	margin-left: 4px;
+}
+
+.Controls button {
+	font-size: 14px;
+
+	margin-right: 20px;
+}

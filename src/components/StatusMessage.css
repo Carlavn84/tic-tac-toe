@@ -1,0 +1,13 @@
+.StatusMessage {
+	flex: none;
+
+	padding: 4px;
+}
+
+.StatusMessage-info {
+	font-style: italic;
+}
+
+.StatusMessage-attention {
+	font-weight: bold;
+}
